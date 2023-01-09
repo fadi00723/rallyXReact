@@ -14,7 +14,7 @@ export default function HomeScreen() {
         <Image source={require('../../../assets/icons/arrowIcon.png')} style={styles.arrowIcon}/>
         <View style={[GlobalStyles.flexRow,{top:'14%'}]}>
           <View>
-          <TouchableOpacity>
+          <TouchableOpacity onPress={()=>navigation.navigate('SpectatorScreen')}>
           <Image source={require('../../../assets/icons/spectatorIcon.png')} style={styles.imgMode}/>
           </TouchableOpacity>
           <Text style={styles.typeText}>spectator</Text>
