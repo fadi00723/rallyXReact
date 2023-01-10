@@ -75,7 +75,7 @@ export default function LoginScreen() {
           </Text>
         </Pressable>
         <TouchableOpacity
-          style={{top: '58%'}}
+          style={{top: '50%'}}
           onPress={() => navigation.goBack()}>
           <Image
             source={require('../../../assets/icons/backIcon.png')}

@@ -1,4 +1,7 @@
-import {StyleSheet} from 'react-native';
+import {Dimensions, StyleSheet} from 'react-native';
+const width = Dimensions.get("window").width;
+const height = Dimensions.get("window").height;
+
 export default StyleSheet.create({
   container: {
     flex: 1,
@@ -49,8 +52,8 @@ export default StyleSheet.create({
   },
   scndView:{ 
    alignItems:'center',
-marginTop:'5%',
-   height:'69.5%',
+   marginTop:'5%',
+   height:height*0.61,
    backgroundColor:'#D3D3D3'
 },
 imgstyle:{

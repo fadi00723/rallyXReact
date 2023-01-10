@@ -16,8 +16,8 @@ export default function SpectatorScreen() {
          <Text style={{fontSize:18,opacity:0.5}}>30 May 2022</Text>
        
          </View>
-         <Text style={{fontSize:25, width:'90%'}}>Bryntesson and Kristoffersson claim RallyX spoils in action-packed Kouvola weekend</Text>
-         <Text style={{fontSize:20,width:'90%', top:'2%'}}>Former RallyX title-winners Thomas Bryntesson and Johan Kritofferson claimed a victory each in a  double-header weekend of action...</Text>
+         <Text style={{fontSize:19, width:'90%'}}>Bryntesson and Kristoffersson claim RallyX spoils in action-packed Kouvola weekend</Text>
+         <Text style={{fontSize:15,width:'90%', top:'2%'}}>Former RallyX title-winners Thomas Bryntesson and Johan Kritofferson claimed a victory each in a  double-header weekend of action...</Text>
          <View style={{alignSelf:'flex-end'}}>
          <Image source={require('../../../assets/icons/leftIcon.png')}/>
          </View>
